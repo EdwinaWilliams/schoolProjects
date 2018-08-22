@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participate | Volunteer</title> 
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/contactForm.js"></script>
+</head>
+<body>
+    <header>
+        <div class="content-wrap">
+            <img class="companyLogo left" src="images/Companylogo.png" alt="Company logo"  width="120" height="150">
+            <div class="companyname left">
+                <h1 >Garden Faries</h1>
+            </div>
+            <div class="topnav right">
+                <a class="active" href="index.html">Home</a>
+                <a href="aboutUs.html">About us</a>
+                <a href="successStories.html">Success stories</a>
+                <div class="dropdown">
+					<a href="participate.html">Participate</a>
+					<div class="dropdown-content">
+						<a href="donate.html">Donate</a>
+						<a href="volunteer.html">Volunteer</a>
+						<a href="events.html">Events</a>
+					</div>
+                </div>
+                <a href="stayInTouch.html">Stay in touch</a>
+            </div>
+        </div>
+    </header>  
+   <main>
+       <div class="content-wrap">
+           <h1 class="heading">Volunteer</h1>
+                <p>Whatever your skills and experience, and however much time you can offer, we have a volunteering opportunity for you. You’ll get support and training if you need it, you’ll meet lots of new people and you'll make a real difference to the lives of others. <br> <br> You’ll learn new skills, have fun and feel good about what you’ve done!</p>
+                <p>Volunteer in the following ways:</p>
+                <ul>
+                    <li>Assist in establishing the garden</li>
+                    <li>Share your knowlegde by teaching in our small scale agricultural workshops</li>
+                    <li>Pro bono legal services required</li>
+                </ul>
+                <p>Please email us on <a  href="mailto:info@gardenfaries.co.za" >info@gardenfaries.co.za</a> or alternatively fill in the contact form below to register your interest with us. <br> Please include your skills and availability. </p>
+                    <div class=contactform>
+                        <h2>Contact Form</h2>
+                        <p>Fill out the Contact form below and we will be in touch soon </p>
+                        <form >
+                           <label for="name">Name:</label>
+                           <input id="name" name="name" type="text" size="20" value="">
+                           <label for="tel">Phone number:</label>
+                           <input id="tel" name="tel" type="text" size="20" value="">
+                            <label for="email">Email Address:</label>
+                           <input id="email" name="email" type="text" size="20" value="">
+                            <label id="messagelabel" for="message"> Message:</label>
+                           <input id="message" name="message" type="text" size="150" value="">
+                            <input onclick="revealSubmitMessage()" id="submit" type="text" name="submit" value="SUBMIT"><br>
+                       </form>
+                <p id="submitMessage">Thank you for getting in contact with us, we will be in touch soon!</p>
+           </div>
+    </div>
+    </main> 
+<footer>
+    <div class="content-wrap"> 
+        <div id="footerSocial">
+            <h2>Stay conntected</h2>
+                <a  href="mailto:info@gardenfaries.co.za"><img src="images/emaillogo.jpeg" alt="emails" width="50" height="50"></a>
+                <a href="https://www.facebook.com"><img src="images/FacebookIcon.jpeg" alt="facebook" width="50" height="50"></a>
+                <a href="https://www.twitter.com"><img src="images/TwitterIcon.jpeg" alt="twitter" width="50" height="50"></a>
+        </div>
+        <div id="footerCompInfo">
+            <div class="left">
+                <p>Telephone: 	+27 12 655 9000 </p>
+                <p>Office hours: 7h30 - 4h00</p>
+            </div>
+            <div class="right">
+                <h2>Address</h2>
+                    <p>56 Fairbridge Street <br> Centurion <br> Pretoria  <br>   0998    </p>  
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
